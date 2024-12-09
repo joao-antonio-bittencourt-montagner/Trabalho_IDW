@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>🎓empregação.com</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=login" />
+</head>
+
+<body class="blogin">
+    <header>
+        Login / Sing-Up
+        <nav>
+            <a href="ajuda.html">Ajuda</a>
+            <a href="sujetoes.html">Sugestões</a>
+            <a href="empregos.html">Empregos</a>
+            <a href="empresas.html">Empresas</a>
+            <a href="index.html" class="mat">Home</a>
+        </nav>
+    </header>
+
+    <h1 class="ph1log">Área de cadastro</h1>
+    <p class="ph1log">Preencha as informações abaixo conforme os campos solicitados.</p>
+
+    <main class="telalog">
+        <div class="campos">
+            <h1>Cadastre-se</h1>
+
+            <form action="cadastsucesso.html" method="POST">
+                <div class="entrada">
+                    <label for="usuario">Usuário:</label>
+                    <input type="text" class="nome" name="usuario" required>
+                </div>
+
+                <div class="entrada">
+                    <label for="gmail">Gmail:</label>
+                    <input type="email" class="nome" name="gmail" required>
+                </div>
+
+                <div class="entrada">
+                    <label for="senha">Senha:</label>
+                    <input type="password" class="senha" name="senha" required>
+                </div>
+
+                <div class="entrada">
+                    <label for="confirma_senha">Confirmar senha:</label>
+                    <input type="password" class="senha" name="confirma_senha" required>
+                </div>
+
+                <button type="submit" class="botão">Cadastrar</button>
+
+                <p class="levacads">
+                    Já possui conta? Tente logar! <a href="login.html" class="cadd">Login</a>
+                </p>
+            </form>
+        </div>
+    </main>
+
+    <footer>Todos os direitos desse site são dedicados à J&J - LTDA</footer>
+</body>
+
+</html>
